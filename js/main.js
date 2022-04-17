@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelector(".sidebar"),t=document.querySelector(".header__burger");t.addEventListener("click",(function(){e.classList.toggle("sidebar--active"),t.classList.toggle("header__burger--active"),e.classList.contains("sidebar--active")?document.body.style.overflow="hidden":document.body.style.overflow=""}))})();
